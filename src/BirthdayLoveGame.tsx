@@ -20,7 +20,7 @@ export default function BirthdayLoveGame() {
   };
 
   return (
-    <div style={{ height: "95vh", boxSizing: "border-box", width: "100%", maxWidth: "100%", overflow: "hidden", WebkitOverflowScrolling: "touch", margin: 0, padding: 0, fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif", background: "linear-gradient(to bottom, #ffe4ec, white)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+    <div style={{ height: "100vh", boxSizing: "border-box", width: "100%", maxWidth: "100%", overflow: "hidden", WebkitOverflowScrolling: "touch", margin: 0, padding: 0, fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif", background: "linear-gradient(to bottom, #ffe4ec, white)", display: "flex", alignItems: "center", justifyContent: "center" }}>
       <div style={{ boxSizing: "border-box", maxWidth: "min(800px, calc(100% - 32px))", margin: "16px auto", width: "100%", background: "white", borderRadius: "24px", boxShadow: "0 10px 30px rgba(0,0,0,0.1)", padding: "clamp(16px, 4vw, 32px)", textAlign: "center" }}>
         {!showLetter ? (
           <>
@@ -50,7 +50,7 @@ export default function BirthdayLoveGame() {
 
             <div
               style={{
-                background: "#fff0f5",
+                background: "#fff0f5", maxHeight: "65vh", overflowY: "auto", WebkitOverflowScrolling: "touch",
                 borderRadius: "20px",
                 padding: "clamp(16px, 4vw, 24px)",
                 textAlign: "left",
