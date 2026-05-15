@@ -46,7 +46,7 @@ export default function BirthdayLoveGame() {
             animate={{ opacity: 1, y: 0 }}
             style={{ display: "flex", flexDirection: "column", gap: "24px" }}
           >
-            <h1 style={{ fontSize: "clamp(1.5rem, 5vw, 2rem)", fontWeight: "bold" }}>You unlocked my letter 💌</h1>
+            <h1 style={{ fontSize: "clamp(1.5rem, 5vw, 2rem)", fontWeight: "bold" }}>You unlocked my love for you 💌</h1>
 
             <div
               style={{
