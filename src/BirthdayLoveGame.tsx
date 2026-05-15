@@ -112,7 +112,7 @@ export default function BirthdayLoveGame() {
               
 
               <p style={{ marginTop: "24px" }}>Love,</p>
-              <p style={{ fontWeight: "bold" }}>Your Girl ❤️</p>
+              <p style={{ fontWeight: "bold" }}>Your Bbg ❤️</p>
             </div>
           </motion.div>
         )}
